@@ -736,6 +736,10 @@ img {
   margin-bottom: 10px;
 }
 
+.modal-form-field:nth-child(4) {
+  margin-bottom: 20px;
+}
+
 .modal-label {
   margin-bottom: 4px;
 
@@ -810,6 +814,43 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
+.modal-form-checkbox {
+  width: 448px;
+  margin-bottom: 30px;
+}
+
+.modal-check-text {
+  display: flex;
+  align-items: center;
+
+  line-height: var(--main-text-line-height);
+}
+
+.modal-check-text::before {
+  content: '';
+  width: 16px;
+  height: 15px;
+  margin-right: 9px;
+
+  border: 2px solid #212121;
+  border-radius: 2px;
+
+  transition: border-color 250ms var(--timing-function);
+}
+
+.modal-form-policy:checked + .modal-check-text::before {
+  border: none;
+  background-color: var(--accent-link-color);
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modal-form-policy:focus + .modal-check-text::before {
+  border-color: var(--accent-link-color);
+}
+
 /* -------------------PORFOLIO------------------- */
 
 .filter-list {
