@@ -104,6 +104,11 @@ img {
 }
 
 .button {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   min-width: 200px;
   height: 50px;
 
@@ -261,11 +266,6 @@ img {
 }
 
 .hero-btn {
-  display: block;
-
-  margin: 0 auto;
-  padding: 10px 32px;
-
   transition: background 250ms var(--timing-function);
 }
 
@@ -849,6 +849,19 @@ img {
 
 .modal-form-policy:focus + .modal-check-text::before {
   border-color: var(--accent-link-color);
+}
+
+.modal-check-link {
+  color: var(--accent-link-color);
+}
+
+.modal-btn-send {
+  transition: background-color 250ms var(--timing-function);
+}
+
+.modal-btn-send:hover,
+.modal-btn-send:focus {
+  background-color: #188ce8;
 }
 
 /* -------------------PORFOLIO------------------- */
