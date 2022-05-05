@@ -758,6 +758,7 @@ img {
   padding-left: 32px;
 
   color: var(--main-text-color);
+  line-height: var(--main-text-line-height);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
@@ -793,6 +794,7 @@ img {
   padding: 12px 16px;
 
   color: var(--main-text-color);
+  line-height: var(--main-text-line-height);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
